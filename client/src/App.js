@@ -22,7 +22,7 @@ function App() {
   //     console.log(error)
   //   }
   // }
-
+  
   useEffect(() => {
     axios.get('http://localhost:8000/').then(res => {
       setTaskList(res.data)
